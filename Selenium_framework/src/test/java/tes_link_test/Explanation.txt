@@ -1,0 +1,89 @@
+Testing Automation Test, Teslink
+=========================================================================================||
+Question #1:
+-----------------------------------------------------------------------------------------||
+Please write a test for google search. the test has the following steps:
+1. navigate to https://www.google.com; make sure page is open
+2. type hotelbeds into search text-box
+3. click on the first auto-complete item in auto-complete panel
+
+expected results: at least 5 results have hotelbeds.com domain in their links
+test must have:
+
+1. support for browsers: chrome, firefox, internet-explorer, edge, chrome-android,
+safari-mac, safari-ios
+2. use only ONE locator per element (i.e. one locator for text-box, one locator for
+auto-complete, etc). this locator must work for all supported platform -
+AVOID creating platform specific locators
+3. do not use any Thread.Sleep
+4. do not use loops
+5. do not use 'if' statement
+6. test pass if met conditions (>= 5)
+7. test fails if not meeting conditions (<5)
+=============================================================================================||
+Question #2
+---------------------------------------------------------------------------------------------||
+please write a date-picker handler to manipulate a date-picker controller based on user
+input
+component must have (assuming all locators are known)
+1. only one public signature of: public void Pick(int numberOfDaysFromToday)
+2. use only 3 locators to handle all possible cases (assume the date-picker is
+already open)
+3. component automatically moves date forward or backward when necessary
+4. component automatically picks the correct date
+5. component code will not exceed 60 lines of code
+
+sample:
+var datePicker = new DatePicker();
+datePicker.Pick(90);
+when executed, the sample above will move date forward for 3 months and pick the
+relevant day of the month
+=============================================================================================||
+Question #3 - Java Specific
+---------------------------------------------------------------------------------------------||
+0. Assuming Appium client libraries are not compliant anymore with Selenium client
+libraries, please answer the following questions - no need to write any code, just
+describe the process if the implementation is possible
+
+========== Answer
+Yes it is possible with this library -- https://bonigarcia.github.io/selenium-jupiter/
+---------------------------------------------------------------------------|
+
+1. Is it possible to test mobile web application or mobile native applications using
+Selenium client libraries? 
+(assuming Appium server is functional and running as
+node.js server)
+
+=========== Answer
+Yes it is possible  with Selendroid library -- http://selendroid.io/
+Or Appium server.
+---------------------------------------------------------------------------|
+
+
+2. If possible to execute (as described in Q#1), please describe how would you achieve
+or solve this problem?
+
+=====================================================|| Liesnychevskyi Stanislav, answer:
+
+Steps:
+1). navigate to https://www.google.com. //Compete
+2). make sure page is open. //Complete
+3). click on the first auto-complete item in auto-complete panel. //Complete
+ 
+-------------------------------------|| Expected result:
+
+1. at least 5 results have hotelbeds.com domain in their links 
+
+This step is not clear to me.
+
+========================================================||
+6. test pass if met conditions (>= 5)
+7. test fails if not meeting conditions (<5)
+
+=========================================================||
+I hope we will meet and talk about that.
+Regards.
+Stan.
+
+
+

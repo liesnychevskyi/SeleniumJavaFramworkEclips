@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_1">
+	<test name="Test_1">
+
+		<groups>
+			<define name="Regression_1">
+				<include name="regression"></include>
+				<include name="smoke"></include>
+			</define>
+
+			<run>
+				<include name="Regression_1"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="Selenium_java_mavenExamples.TestNGgroupsDemo" />
+		</classes>
+	</test>
+</suite> 

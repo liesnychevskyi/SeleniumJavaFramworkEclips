@@ -1,0 +1,27 @@
+[INFO ] 2019-02-18 18:17:01.463 [main] Log4j_demo - This is information message
+[ERROR] 2019-02-18 18:17:01.467 [main] Log4j_demo - This is an error message
+[WARN ] 2019-02-18 18:17:01.467 [main] Log4j_demo - This is an warning message
+[FATAL] 2019-02-18 18:17:01.467 [main] Log4j_demo - This is an fatal message
+[INFO ] 2019-02-18 18:19:26.102 [main] Log4j_demo - This is information message
+[ERROR] 2019-02-18 18:19:26.107 [main] Log4j_demo - This is an error message
+[WARN ] 2019-02-18 18:19:26.108 [main] Log4j_demo - This is an warning message
+[FATAL] 2019-02-18 18:19:26.108 [main] Log4j_demo - This is an fatal message
+[INFO ] 2019-02-18 18:20:45.742 [main] Log4j_demo - This is information message
+[ERROR] 2019-02-18 18:20:45.747 [main] Log4j_demo - This is an error message
+[WARN ] 2019-02-18 18:20:45.748 [main] Log4j_demo - This is an warning message
+[FATAL] 2019-02-18 18:20:45.748 [main] Log4j_demo - This is an fatal message
+[TRACE] 2019-02-18 18:21:24.923 [main] Log4j_demo - This is tracelevel
+[INFO ] 2019-02-18 18:21:24.930 [main] Log4j_demo - This is information message
+[ERROR] 2019-02-18 18:21:24.931 [main] Log4j_demo - This is an error message
+[WARN ] 2019-02-18 18:21:24.931 [main] Log4j_demo - This is an warning message
+[FATAL] 2019-02-18 18:21:24.931 [main] Log4j_demo - This is an fatal message
+[TRACE] 2019-02-19 11:15:10.933 [main] Log4j_demo - This is tracelevel
+[INFO ] 2019-02-19 11:15:10.939 [main] Log4j_demo - This is information message
+[ERROR] 2019-02-19 11:15:10.940 [main] Log4j_demo - This is an error message
+[WARN ] 2019-02-19 11:15:10.940 [main] Log4j_demo - This is an warning message
+[FATAL] 2019-02-19 11:15:10.940 [main] Log4j_demo - This is an fatal message
+[TRACE] 2019-02-19 11:16:02.348 [main] Log4j_demo - This is tracelevel
+[INFO ] 2019-02-19 11:16:02.358 [main] Log4j_demo - This is information message
+[ERROR] 2019-02-19 11:16:02.359 [main] Log4j_demo - This is an error message
+[WARN ] 2019-02-19 11:16:02.359 [main] Log4j_demo - This is an warning message
+[FATAL] 2019-02-19 11:16:02.359 [main] Log4j_demo - This is an fatal message

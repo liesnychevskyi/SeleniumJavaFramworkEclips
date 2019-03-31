@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_1" parallel="tests" thread-count="3">
+
+
+	<test name="-- TestEdgeBrowser --">
+		<parameter name="browserName" value="edge"></parameter>
+		<classes>
+			<class
+				name="Selenium_java_mavenExamples.TestNGMultiBrowserDemo" />
+		</classes>
+	</test>
+
+
+	<test name="-- TestChromeBrowser --">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class
+				name="Selenium_java_mavenExamples.TestNGMultiBrowserDemo" />
+		</classes>
+	</test>
+
+	<test name="-- TestFirefoxBrowser --">
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class
+				name="Selenium_java_mavenExamples.TestNGMultiBrowserDemo" />
+		</classes>
+	</test>
+</suite> 
