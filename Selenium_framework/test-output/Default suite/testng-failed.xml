@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_java_mavenExamples.Fluen_Wait_demo">
+      <class name="Selenium_java_mavenExamples.SauceLabsDemo">
         <methods>
-          <include name="tearDown"/>
-          <include name="googleSearchTest"/>
-          <include name="setUp"/>
+          <include name="shouldOpenSafari"/>
         </methods>
-      </class> <!-- Selenium_java_mavenExamples.Fluen_Wait_demo -->
+      </class> <!-- Selenium_java_mavenExamples.SauceLabsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
